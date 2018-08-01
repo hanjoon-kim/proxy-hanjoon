@@ -1,39 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
-    <title>FEC Demo</title>
-  </head>
-  <body>
-    <div id="Info"></div>
-    <div id="CountDown"></div>
-    <div id="Related"></div>
-    <div id="Reviews"></div>
-    <script src="/lib/react.development.js"></script>
-    <script src="/lib/react-dom.development.js"></script>
-    <script src="http://localhost:3001/app.js"></script>
-    <script src="http://localhost:3002/app.js"></script>
-    <script src="http://localhost:3003/app.js"></script>
-    <script src="http://localhost:3004/app.js"></script>
-    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
-    <script>
-      ReactDOM.render(
-        React.createElement(Info),
-        document.getElementById('Info')
-      );
-      ReactDOM.render(
-        React.createElement(CountDown),
-        document.getElementById('CountDown')
-      );
-      ReactDOM.render(
-        React.createElement(Related),
-        document.getElementById('Related')
-      );
-      ReactDOM.render(
-        React.createElement(Reviews),
-        document.getElementById('Reviews')
-      );
-    </script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">
+  <title>Amazon Viamis</title>
+</head>
+
+<body>
+  <div id="photo-gallery"></div>
+  <div id="product-info"></div>
+  <br></br>
+  <div id="app"></div>
+  <div id="service"></div>
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script src="https://s3-us-west-1.amazonaws.com/viamis-cdn/bundleML.js" charset="utf-8"></script>
+  <script src="https://s3-us-west-1.amazonaws.com/viamis-cdn/bundleHK.js" charset="utf-8"></script>
+  <script src="https://s3-us-west-1.amazonaws.com/viamis-cdn/bundleTK.js" charset="utf-8"></script>
+  <script src="https://s3-us-west-1.amazonaws.com/viamis-cdn/bundle.js" charset="utf-8"></script>
+</body>
+
 </html>
