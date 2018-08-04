@@ -7,12 +7,14 @@
   <title>Amazon Viamis</title>
 </head>
 
-<body>
-  <img src="https://s3-us-west-1.amazonaws.com/hanjoonk/Amazon+Nav+Bar+Static"></img>
-  <div style="display:inline-block" id="photo-gallery"></div>
+<body style="margin: 0px; padding: 0px">
+  <img style="width: 100%" src="https://s3-us-west-1.amazonaws.com/hanjoonk/Amazon+Nav+Bar+Static"></img>
+  <div style="display:inline-block; width: 50%; vertical-align: top" id="photo-gallery"></div>
   <div style="display:inline-block" id="product-info"></div>
   <br></br>
-  <div style="display:block" id="app"></div>
+  <div style="display:flex; justify-content: center;">
+    <div id="app"></div>
+  </div>
   <div style="display:block" id="service"></div>
   <script src="/lib/react.development.js"></script>
   <script src="/lib/react-dom.development.js"></script>
@@ -21,7 +23,7 @@
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
   <script src="https://s3-us-west-1.amazonaws.com/viamis-ml-cdn/bundle.js" charset="utf-8"></script>
-  <script src="https://s3-us-west-1.amazonaws.com/viamis-cdn/bundleHK.js" charset="utf-8"></script>
+  <script src="https://s3-us-west-1.amazonaws.com/hanjoonk/similarBundle.js" charset="utf-8"></script>
   <script src="https://s3-us-west-1.amazonaws.com/viamis/bundle.js" charset="utf-8"></script>
   <script src="https://s3-us-west-1.amazonaws.com/viamis-cdn/reviewBundle.js" charset="utf-8"></script>
 </body>
